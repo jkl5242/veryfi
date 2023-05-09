@@ -12,8 +12,7 @@ Once everything is running, go to localhost:8080 and log in as airflow/airflow a
 3. database: airflow
 4. port: 5432
 5. host: localhost
-You should be able to connect with DBeaver/Dbvisualizer or any other tool through with host as localhost. 
-Two tables will be created on docker compose up startup based on init.sql - documents & parsed_total (Part 2 & 3)
+6. You should be able to connect with DBeaver/Dbvisualizer or any other tool through with host as localhost. Two tables will be created on docker compose up startup based on init.sql - documents & parsed_total (Part 2 & 3)
 
 **Docker**
 1. Dockerfile.generate-data will be running and uploading data every second to 'documents' table (Part 1)

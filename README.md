@@ -7,11 +7,11 @@ Once everything is running, go to localhost:8080 and log in as airflow/airflow a
 
 **Information**
 Database
-username: airflow
-password: airflow
-database: airflow
-port: 5432
-host: localhost
+1. username: airflow
+2. password: airflow
+3. database: airflow
+4. port: 5432
+5. host: localhost
 You should be able to connect with DBeaver/Dbvisualizer or any other tool through with host as localhost. 
 Two tables will be created on docker compose up startup based on init.sql - documents & parsed_total (Part 2 & 3)
 

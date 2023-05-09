@@ -1,12 +1,12 @@
 # Veryfi Takehome Project
 
-**How to Run**
+# How to run
 docker compose up
 
 Once everything is running, go to localhost:8080 and log in as airflow/airflow and start the DAG. After that, it will begin scheduling. (Part 2)
 
-**Information**
-Database
+# Information
+**Database**
 1. username: airflow
 2. password: airflow
 3. database: airflow
@@ -15,12 +15,12 @@ Database
 You should be able to connect with DBeaver/Dbvisualizer or any other tool through with host as localhost. 
 Two tables will be created on docker compose up startup based on init.sql - documents & parsed_total (Part 2 & 3)
 
-Docker
+**Docker**
 1. Dockerfile.generate-data will be running and uploading data every second to 'documents' table (Part 1)
 2. Dockerfile.analytics-api will serve as the API server that will return data Part(4)
 3. docker-compose.yaml will have have airflow, generate-data, analytics-api, and pg-admin dashboard (use pg-admin dashboard if needed) running
 
-Dags
+**Dags**
 1. There is one DAG that will be scheduled in 5 second batches - it will be inserting data to the parsed_total table which has schema 
 CREATE TABLE parsed_total (
     id SERIAL PRIMARY KEY,
@@ -32,16 +32,16 @@ CREATE TABLE parsed_total (
     bounding_box NUMERIC[]
 )
 
-API Server 
+**API Server** 
 I created two APIs to test the sum of values:
 1. /api/business/<int:business_id>
 2. /api/score/<float:score>
 I could have created more but the logic would be the same.
 
-curl --location 'http://0.0.0.0:5001/api/business/1'
-curl --location 'http://0.0.0.0:5001/api/score/0.03'
+1. curl --location 'http://0.0.0.0:5001/api/business/1'
+2. curl --location 'http://0.0.0.0:5001/api/score/0.03'
 
-Part 5
+**Part 5**
 To scale up the current setup for processing half a million documents a day or half a million database writes a day, we can consider the following strategies:
 1. Horizontal scaling: We can horizontally scale the system by adding more processing nodes to distribute the load. We can use multiple instances of the data generating service, and use a load balancer to distribute incoming requests among them.
 2. Stream processing: Instead of batches, we can use stream processing to process the documents in real-time. For example, we can use Apache Kafka to ingest the documents and process them as they arrive.

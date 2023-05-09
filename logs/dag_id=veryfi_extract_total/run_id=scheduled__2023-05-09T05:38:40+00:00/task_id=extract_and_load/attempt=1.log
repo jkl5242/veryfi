@@ -1,0 +1,13 @@
+[2023-05-09T05:38:56.196+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: veryfi_extract_total.extract_and_load scheduled__2023-05-09T05:38:40+00:00 [queued]>
+[2023-05-09T05:38:56.201+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: veryfi_extract_total.extract_and_load scheduled__2023-05-09T05:38:40+00:00 [queued]>
+[2023-05-09T05:38:56.202+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-09T05:38:56.210+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): extract_and_load> on 2023-05-09 05:38:40+00:00
+[2023-05-09T05:38:56.214+0000] {standard_task_runner.py:57} INFO - Started process 2919 to run task
+[2023-05-09T05:38:56.218+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'veryfi_extract_total', 'extract_and_load', 'scheduled__2023-05-09T05:38:40+00:00', '--job-id', '722', '--raw', '--subdir', 'DAGS_FOLDER/ml_response_dag.py', '--cfg-path', '/tmp/tmpa36x49yq']
+[2023-05-09T05:38:56.218+0000] {standard_task_runner.py:85} INFO - Job 722: Subtask extract_and_load
+[2023-05-09T05:38:56.283+0000] {task_command.py:410} INFO - Running <TaskInstance: veryfi_extract_total.extract_and_load scheduled__2023-05-09T05:38:40+00:00 [running]> on host aa4b7d3de44b
+[2023-05-09T05:38:56.379+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='veryfi_extract_total' AIRFLOW_CTX_TASK_ID='extract_and_load' AIRFLOW_CTX_EXECUTION_DATE='2023-05-09T05:38:40+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-09T05:38:40+00:00'
+[2023-05-09T05:38:56.388+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-05-09T05:38:56.402+0000] {taskinstance.py:1373} INFO - Marking task as SUCCESS. dag_id=veryfi_extract_total, task_id=extract_and_load, execution_date=20230509T053840, start_date=20230509T053856, end_date=20230509T053856
+[2023-05-09T05:38:56.431+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-05-09T05:38:56.452+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,22 @@
+[2023-05-08T23:12:56.910+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: veryfi_extract_total.extract_and_load manual__2023-05-08T23:12:55.455911+00:00 [queued]>
+[2023-05-08T23:12:56.978+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: veryfi_extract_total.extract_and_load manual__2023-05-08T23:12:55.455911+00:00 [queued]>
+[2023-05-08T23:12:56.987+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-08T23:12:57.058+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): extract_and_load> on 2023-05-08 23:12:55.455911+00:00
+[2023-05-08T23:12:57.083+0000] {standard_task_runner.py:57} INFO - Started process 327 to run task
+[2023-05-08T23:12:57.151+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'veryfi_extract_total', 'extract_and_load', 'manual__2023-05-08T23:12:55.455911+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/ml_response_dag.py', '--cfg-path', '/tmp/tmp_ejus2hx']
+[2023-05-08T23:12:57.156+0000] {standard_task_runner.py:85} INFO - Job 57: Subtask extract_and_load
+[2023-05-08T23:12:57.623+0000] {task_command.py:410} INFO - Running <TaskInstance: veryfi_extract_total.extract_and_load manual__2023-05-08T23:12:55.455911+00:00 [running]> on host 916d3785c91c
+[2023-05-08T23:12:58.562+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='veryfi_extract_total' AIRFLOW_CTX_TASK_ID='extract_and_load' AIRFLOW_CTX_EXECUTION_DATE='2023-05-08T23:12:55.455911+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-08T23:12:55.455911+00:00'
+[2023-05-08T23:12:58.665+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ml_response_dag.py", line 31, in extract_total
+    cur.execute("INSERT INTO parsed_total (total) VALUES (%s)", (total,))
+psycopg2.ProgrammingError: can't adapt type 'dict'
+[2023-05-08T23:12:58.757+0000] {taskinstance.py:1373} INFO - Marking task as UP_FOR_RETRY. dag_id=veryfi_extract_total, task_id=extract_and_load, execution_date=20230508T231255, start_date=20230508T231256, end_date=20230508T231258
+[2023-05-08T23:12:59.509+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 57 for task extract_and_load (can't adapt type 'dict'; 327)
+[2023-05-08T23:12:59.986+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-08T23:13:00.386+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

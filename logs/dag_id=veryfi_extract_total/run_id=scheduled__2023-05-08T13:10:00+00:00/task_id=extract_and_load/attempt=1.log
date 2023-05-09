@@ -1,0 +1,277 @@
+[2023-05-09T04:57:42.053+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: veryfi_extract_total.extract_and_load scheduled__2023-05-08T13:10:00+00:00 [queued]>
+[2023-05-09T04:57:42.066+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: veryfi_extract_total.extract_and_load scheduled__2023-05-08T13:10:00+00:00 [queued]>
+[2023-05-09T04:57:42.067+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-09T04:57:42.166+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): extract_and_load> on 2023-05-08 13:10:00+00:00
+[2023-05-09T04:57:42.189+0000] {standard_task_runner.py:57} INFO - Started process 1708 to run task
+[2023-05-09T04:57:42.195+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'veryfi_extract_total', 'extract_and_load', 'scheduled__2023-05-08T13:10:00+00:00', '--job-id', '471', '--raw', '--subdir', 'DAGS_FOLDER/ml_response_dag.py', '--cfg-path', '/tmp/tmp8pm04slb']
+[2023-05-09T04:57:42.203+0000] {standard_task_runner.py:85} INFO - Job 471: Subtask extract_and_load
+[2023-05-09T04:57:42.439+0000] {task_command.py:410} INFO - Running <TaskInstance: veryfi_extract_total.extract_and_load scheduled__2023-05-08T13:10:00+00:00 [running]> on host aa4b7d3de44b
+[2023-05-09T04:57:42.903+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='veryfi_extract_total' AIRFLOW_CTX_TASK_ID='extract_and_load' AIRFLOW_CTX_EXECUTION_DATE='2023-05-08T13:10:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-08T13:10:00+00:00'
+[2023-05-09T04:57:42.953+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:42.956+0000] {ml_response_dag.py:36} INFO - 1
+[2023-05-09T04:57:42.963+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:42.965+0000] {ml_response_dag.py:35} INFO - {'value': '544', 'score': 0.22, 'ocr_score': 0.81, 'bounding_box': [0.22, 0.37, 0.38, 0.52]}
+[2023-05-09T04:57:42.966+0000] {ml_response_dag.py:36} INFO - 1
+[2023-05-09T04:57:42.966+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:42.967+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:42.967+0000] {ml_response_dag.py:36} INFO - 1
+[2023-05-09T04:57:42.968+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:42.969+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:42.970+0000] {ml_response_dag.py:36} INFO - 1
+[2023-05-09T04:57:42.974+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:42.977+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:42.979+0000] {ml_response_dag.py:36} INFO - 1
+[2023-05-09T04:57:42.980+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:42.982+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:42.984+0000] {ml_response_dag.py:36} INFO - 1
+[2023-05-09T04:57:42.985+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:42.988+0000] {ml_response_dag.py:35} INFO - {'value': '660', 'score': 0.48, 'ocr_score': 0.32, 'bounding_box': [0.07, 0.82, 0.06, 0.37]}
+[2023-05-09T04:57:42.994+0000] {ml_response_dag.py:36} INFO - 1
+[2023-05-09T04:57:42.996+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:42.997+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:42.998+0000] {ml_response_dag.py:36} INFO - 1
+[2023-05-09T04:57:42.999+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.001+0000] {ml_response_dag.py:35} INFO - {'value': '801', 'score': 0.92, 'ocr_score': 0.28, 'bounding_box': [0.56, 0.9, 0.37, 0.79]}
+[2023-05-09T04:57:43.001+0000] {ml_response_dag.py:36} INFO - 1
+[2023-05-09T04:57:43.002+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.003+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.004+0000] {ml_response_dag.py:36} INFO - 2
+[2023-05-09T04:57:43.005+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.008+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.008+0000] {ml_response_dag.py:36} INFO - 2
+[2023-05-09T04:57:43.011+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.016+0000] {ml_response_dag.py:35} INFO - {'value': '880', 'score': 0.06, 'ocr_score': 0.1, 'bounding_box': [0.76, 0.47, 0.16, 0.27]}
+[2023-05-09T04:57:43.020+0000] {ml_response_dag.py:36} INFO - 2
+[2023-05-09T04:57:43.022+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.031+0000] {ml_response_dag.py:35} INFO - {'value': '380', 'score': 0.11, 'ocr_score': 0.36, 'bounding_box': [0.99, 0.15, 0.39, 0.03]}
+[2023-05-09T04:57:43.032+0000] {ml_response_dag.py:36} INFO - 2
+[2023-05-09T04:57:43.032+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.033+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.033+0000] {ml_response_dag.py:36} INFO - 2
+[2023-05-09T04:57:43.034+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.034+0000] {ml_response_dag.py:35} INFO - {'value': '770', 'score': 0.37, 'ocr_score': 0.84, 'bounding_box': [0.79, 0.15, 0.82, 0.6]}
+[2023-05-09T04:57:43.036+0000] {ml_response_dag.py:36} INFO - 2
+[2023-05-09T04:57:43.036+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.037+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.037+0000] {ml_response_dag.py:36} INFO - 2
+[2023-05-09T04:57:43.038+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.038+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.039+0000] {ml_response_dag.py:36} INFO - 2
+[2023-05-09T04:57:43.039+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.040+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.040+0000] {ml_response_dag.py:36} INFO - 2
+[2023-05-09T04:57:43.040+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.041+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.042+0000] {ml_response_dag.py:36} INFO - 3
+[2023-05-09T04:57:43.042+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.043+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.046+0000] {ml_response_dag.py:36} INFO - 4
+[2023-05-09T04:57:43.048+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.049+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.050+0000] {ml_response_dag.py:36} INFO - 5
+[2023-05-09T04:57:43.051+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.052+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.052+0000] {ml_response_dag.py:36} INFO - 5
+[2023-05-09T04:57:43.052+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.054+0000] {ml_response_dag.py:35} INFO - {'value': '418', 'score': 0.49, 'ocr_score': 0.15, 'bounding_box': [0.88, 0.92, 0.46, 0.3]}
+[2023-05-09T04:57:43.054+0000] {ml_response_dag.py:36} INFO - 5
+[2023-05-09T04:57:43.055+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.055+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.056+0000] {ml_response_dag.py:36} INFO - 5
+[2023-05-09T04:57:43.056+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.057+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.061+0000] {ml_response_dag.py:36} INFO - 5
+[2023-05-09T04:57:43.061+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.062+0000] {ml_response_dag.py:35} INFO - {'value': '78', 'score': 0.03, 'ocr_score': 0.66, 'bounding_box': [0.31, 0.81, 0.43, 0.03]}
+[2023-05-09T04:57:43.062+0000] {ml_response_dag.py:36} INFO - 5
+[2023-05-09T04:57:43.062+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.067+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.069+0000] {ml_response_dag.py:36} INFO - 5
+[2023-05-09T04:57:43.074+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.075+0000] {ml_response_dag.py:35} INFO - {'value': '889', 'score': 0.72, 'ocr_score': 0.56, 'bounding_box': [0.38, 0.17, 0.28, 1.0]}
+[2023-05-09T04:57:43.075+0000] {ml_response_dag.py:36} INFO - 5
+[2023-05-09T04:57:43.076+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.077+0000] {ml_response_dag.py:35} INFO - {'value': '292', 'score': 0.23, 'ocr_score': 0.39, 'bounding_box': [0.45, 0.93, 0.07, 0.2]}
+[2023-05-09T04:57:43.085+0000] {ml_response_dag.py:36} INFO - 5
+[2023-05-09T04:57:43.088+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.090+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.092+0000] {ml_response_dag.py:36} INFO - 6
+[2023-05-09T04:57:43.093+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.097+0000] {ml_response_dag.py:35} INFO - {'value': '542', 'score': 0.01, 'ocr_score': 0.03, 'bounding_box': [0.27, 0.53, 0.77, 0.97]}
+[2023-05-09T04:57:43.098+0000] {ml_response_dag.py:36} INFO - 7
+[2023-05-09T04:57:43.099+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.101+0000] {ml_response_dag.py:35} INFO - {'value': '342', 'score': 0.56, 'ocr_score': 0.14, 'bounding_box': [0.77, 0.91, 0.18, 0.2]}
+[2023-05-09T04:57:43.101+0000] {ml_response_dag.py:36} INFO - 7
+[2023-05-09T04:57:43.102+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.103+0000] {ml_response_dag.py:35} INFO - {'value': '967', 'score': 0.78, 'ocr_score': 0.39, 'bounding_box': [0.86, 0.38, 0.41, 0.36]}
+[2023-05-09T04:57:43.104+0000] {ml_response_dag.py:36} INFO - 7
+[2023-05-09T04:57:43.104+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.105+0000] {ml_response_dag.py:35} INFO - {'value': '100', 'score': 0.68, 'ocr_score': 0.75, 'bounding_box': [0.32, 0.6, 0.97, 0.05]}
+[2023-05-09T04:57:43.108+0000] {ml_response_dag.py:36} INFO - 7
+[2023-05-09T04:57:43.109+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.124+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.131+0000] {ml_response_dag.py:36} INFO - 7
+[2023-05-09T04:57:43.132+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.133+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.133+0000] {ml_response_dag.py:36} INFO - 7
+[2023-05-09T04:57:43.134+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.136+0000] {ml_response_dag.py:35} INFO - {'value': '858', 'score': 0.94, 'ocr_score': 0.64, 'bounding_box': [0.22, 0.37, 0.17, 0.07]}
+[2023-05-09T04:57:43.137+0000] {ml_response_dag.py:36} INFO - 7
+[2023-05-09T04:57:43.138+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.145+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.145+0000] {ml_response_dag.py:36} INFO - 7
+[2023-05-09T04:57:43.146+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.147+0000] {ml_response_dag.py:35} INFO - {'value': '633', 'score': 0.77, 'ocr_score': 0.17, 'bounding_box': [0.44, 0.56, 0.26, 0.15]}
+[2023-05-09T04:57:43.148+0000] {ml_response_dag.py:36} INFO - 7
+[2023-05-09T04:57:43.148+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.151+0000] {ml_response_dag.py:35} INFO - {'value': '609', 'score': 0.47, 'ocr_score': 0.56, 'bounding_box': [0.3, 0.87, 0.78, 0.92]}
+[2023-05-09T04:57:43.151+0000] {ml_response_dag.py:36} INFO - 8
+[2023-05-09T04:57:43.153+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.153+0000] {ml_response_dag.py:35} INFO - {'value': '331', 'score': 0.49, 'ocr_score': 0.99, 'bounding_box': [0.55, 0.36, 0.08, 0.43]}
+[2023-05-09T04:57:43.154+0000] {ml_response_dag.py:36} INFO - 8
+[2023-05-09T04:57:43.155+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.157+0000] {ml_response_dag.py:35} INFO - {'value': '142', 'score': 0.0, 'ocr_score': 0.58, 'bounding_box': [0.17, 0.36, 0.83, 0.62]}
+[2023-05-09T04:57:43.162+0000] {ml_response_dag.py:36} INFO - 8
+[2023-05-09T04:57:43.162+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.163+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.163+0000] {ml_response_dag.py:36} INFO - 8
+[2023-05-09T04:57:43.164+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.164+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.165+0000] {ml_response_dag.py:36} INFO - 8
+[2023-05-09T04:57:43.165+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.166+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.167+0000] {ml_response_dag.py:36} INFO - 8
+[2023-05-09T04:57:43.168+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.169+0000] {ml_response_dag.py:35} INFO - {'value': '826', 'score': 0.74, 'ocr_score': 0.69, 'bounding_box': [0.98, 0.11, 0.14, 0.96]}
+[2023-05-09T04:57:43.170+0000] {ml_response_dag.py:36} INFO - 8
+[2023-05-09T04:57:43.170+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.171+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.171+0000] {ml_response_dag.py:36} INFO - 8
+[2023-05-09T04:57:43.172+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.172+0000] {ml_response_dag.py:35} INFO - {'value': '299', 'score': 0.85, 'ocr_score': 0.04, 'bounding_box': [0.14, 0.46, 0.06, 0.65]}
+[2023-05-09T04:57:43.172+0000] {ml_response_dag.py:36} INFO - 8
+[2023-05-09T04:57:43.173+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.173+0000] {ml_response_dag.py:35} INFO - {'value': '362', 'score': 0.62, 'ocr_score': 0.51, 'bounding_box': [0.42, 0.48, 0.21, 0.45]}
+[2023-05-09T04:57:43.174+0000] {ml_response_dag.py:36} INFO - 9
+[2023-05-09T04:57:43.175+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.176+0000] {ml_response_dag.py:35} INFO - {'value': '288', 'score': 0.77, 'ocr_score': 0.23, 'bounding_box': [0.16, 0.03, 0.68, 0.81]}
+[2023-05-09T04:57:43.177+0000] {ml_response_dag.py:36} INFO - 9
+[2023-05-09T04:57:43.177+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.178+0000] {ml_response_dag.py:35} INFO - {'value': '803', 'score': 0.03, 'ocr_score': 0.42, 'bounding_box': [0.05, 0.5, 0.56, 0.95]}
+[2023-05-09T04:57:43.179+0000] {ml_response_dag.py:36} INFO - 9
+[2023-05-09T04:57:43.180+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.180+0000] {ml_response_dag.py:35} INFO - {'value': '750', 'score': 0.85, 'ocr_score': 0.27, 'bounding_box': [0.71, 0.07, 0.54, 0.9]}
+[2023-05-09T04:57:43.181+0000] {ml_response_dag.py:36} INFO - 9
+[2023-05-09T04:57:43.182+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.183+0000] {ml_response_dag.py:35} INFO - {'value': '148', 'score': 0.41, 'ocr_score': 0.97, 'bounding_box': [0.44, 0.51, 0.69, 0.67]}
+[2023-05-09T04:57:43.183+0000] {ml_response_dag.py:36} INFO - 9
+[2023-05-09T04:57:43.183+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.184+0000] {ml_response_dag.py:35} INFO - {'value': '161', 'score': 0.49, 'ocr_score': 0.58, 'bounding_box': [0.51, 0.51, 0.55, 0.06]}
+[2023-05-09T04:57:43.184+0000] {ml_response_dag.py:36} INFO - 9
+[2023-05-09T04:57:43.184+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.185+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.185+0000] {ml_response_dag.py:36} INFO - 9
+[2023-05-09T04:57:43.191+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.194+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.194+0000] {ml_response_dag.py:36} INFO - 9
+[2023-05-09T04:57:43.195+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.195+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.196+0000] {ml_response_dag.py:36} INFO - 9
+[2023-05-09T04:57:43.197+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.197+0000] {ml_response_dag.py:35} INFO - {'value': '842', 'score': 0.47, 'ocr_score': 0.75, 'bounding_box': [0.16, 0.91, 0.32, 0.53]}
+[2023-05-09T04:57:43.198+0000] {ml_response_dag.py:36} INFO - 10
+[2023-05-09T04:57:43.208+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.215+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.217+0000] {ml_response_dag.py:36} INFO - 10
+[2023-05-09T04:57:43.219+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.221+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.223+0000] {ml_response_dag.py:36} INFO - 10
+[2023-05-09T04:57:43.224+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.226+0000] {ml_response_dag.py:35} INFO - {'value': '458', 'score': 0.81, 'ocr_score': 0.31, 'bounding_box': [0.69, 0.54, 0.48, 0.39]}
+[2023-05-09T04:57:43.228+0000] {ml_response_dag.py:36} INFO - 10
+[2023-05-09T04:57:43.233+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.244+0000] {ml_response_dag.py:35} INFO - {'value': '776', 'score': 0.77, 'ocr_score': 0.34, 'bounding_box': [0.76, 0.85, 0.56, 0.82]}
+[2023-05-09T04:57:43.248+0000] {ml_response_dag.py:36} INFO - 10
+[2023-05-09T04:57:43.253+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.262+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.268+0000] {ml_response_dag.py:36} INFO - 10
+[2023-05-09T04:57:43.271+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.272+0000] {ml_response_dag.py:35} INFO - {'value': '51', 'score': 0.76, 'ocr_score': 0.29, 'bounding_box': [0.79, 0.88, 0.43, 0.21]}
+[2023-05-09T04:57:43.274+0000] {ml_response_dag.py:36} INFO - 10
+[2023-05-09T04:57:43.275+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.276+0000] {ml_response_dag.py:35} INFO - {'value': '843', 'score': 0.05, 'ocr_score': 0.96, 'bounding_box': [0.84, 0.04, 0.6, 0.52]}
+[2023-05-09T04:57:43.277+0000] {ml_response_dag.py:36} INFO - 10
+[2023-05-09T04:57:43.278+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.283+0000] {ml_response_dag.py:35} INFO - {'value': '517', 'score': 0.75, 'ocr_score': 0.74, 'bounding_box': [0.65, 0.92, 0.1, 0.59]}
+[2023-05-09T04:57:43.283+0000] {ml_response_dag.py:36} INFO - 10
+[2023-05-09T04:57:43.285+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.287+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.287+0000] {ml_response_dag.py:36} INFO - 11
+[2023-05-09T04:57:43.288+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.291+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.295+0000] {ml_response_dag.py:36} INFO - 11
+[2023-05-09T04:57:43.296+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.305+0000] {ml_response_dag.py:35} INFO - {'value': '288', 'score': 0.6, 'ocr_score': 0.29, 'bounding_box': [0.96, 0.39, 0.81, 0.96]}
+[2023-05-09T04:57:43.307+0000] {ml_response_dag.py:36} INFO - 11
+[2023-05-09T04:57:43.309+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.313+0000] {ml_response_dag.py:35} INFO - {'value': '878', 'score': 0.44, 'ocr_score': 0.56, 'bounding_box': [0.46, 0.03, 0.06, 0.3]}
+[2023-05-09T04:57:43.315+0000] {ml_response_dag.py:36} INFO - 11
+[2023-05-09T04:57:43.316+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.318+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.318+0000] {ml_response_dag.py:36} INFO - 11
+[2023-05-09T04:57:43.318+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.320+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.321+0000] {ml_response_dag.py:36} INFO - 11
+[2023-05-09T04:57:43.321+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.322+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.322+0000] {ml_response_dag.py:36} INFO - 11
+[2023-05-09T04:57:43.323+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.323+0000] {ml_response_dag.py:35} INFO - {'value': '650', 'score': 0.79, 'ocr_score': 0.64, 'bounding_box': [0.13, 0.78, 0.29, 0.37]}
+[2023-05-09T04:57:43.324+0000] {ml_response_dag.py:36} INFO - 11
+[2023-05-09T04:57:43.324+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.325+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.341+0000] {ml_response_dag.py:36} INFO - 11
+[2023-05-09T04:57:43.346+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.348+0000] {ml_response_dag.py:35} INFO - {'value': '643', 'score': 0.23, 'ocr_score': 0.72, 'bounding_box': [0.01, 0.39, 0.58, 0.53]}
+[2023-05-09T04:57:43.350+0000] {ml_response_dag.py:36} INFO - 12
+[2023-05-09T04:57:43.351+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.353+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.354+0000] {ml_response_dag.py:36} INFO - 13
+[2023-05-09T04:57:43.355+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.356+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.357+0000] {ml_response_dag.py:36} INFO - 14
+[2023-05-09T04:57:43.357+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.358+0000] {ml_response_dag.py:35} INFO - {'value': '141', 'score': 0.27, 'ocr_score': 0.93, 'bounding_box': [0.24, 0.73, 0.11, 0.89]}
+[2023-05-09T04:57:43.358+0000] {ml_response_dag.py:36} INFO - 15
+[2023-05-09T04:57:43.358+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.359+0000] {ml_response_dag.py:35} INFO - {'value': '59', 'score': 0.45, 'ocr_score': 0.57, 'bounding_box': [0.45, 0.64, 0.68, 0.17]}
+[2023-05-09T04:57:43.359+0000] {ml_response_dag.py:36} INFO - 15
+[2023-05-09T04:57:43.359+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.360+0000] {ml_response_dag.py:35} INFO - {'value': '333', 'score': 0.34, 'ocr_score': 0.85, 'bounding_box': [0.81, 0.57, 0.99, 0.77]}
+[2023-05-09T04:57:43.360+0000] {ml_response_dag.py:36} INFO - 15
+[2023-05-09T04:57:43.361+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.362+0000] {ml_response_dag.py:35} INFO - {'value': '257', 'score': 0.11, 'ocr_score': 0.43, 'bounding_box': [0.37, 0.55, 0.53, 0.66]}
+[2023-05-09T04:57:43.364+0000] {ml_response_dag.py:36} INFO - 15
+[2023-05-09T04:57:43.365+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.366+0000] {ml_response_dag.py:35} INFO - {'value': '190', 'score': 0.21, 'ocr_score': 0.83, 'bounding_box': [0.88, 0.83, 0.57, 0.11]}
+[2023-05-09T04:57:43.367+0000] {ml_response_dag.py:36} INFO - 15
+[2023-05-09T04:57:43.367+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.368+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.369+0000] {ml_response_dag.py:36} INFO - 15
+[2023-05-09T04:57:43.369+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.370+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.370+0000] {ml_response_dag.py:36} INFO - 15
+[2023-05-09T04:57:43.371+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.372+0000] {ml_response_dag.py:35} INFO - {}
+[2023-05-09T04:57:43.373+0000] {ml_response_dag.py:36} INFO - 15
+[2023-05-09T04:57:43.373+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.374+0000] {ml_response_dag.py:35} INFO - {'value': '475', 'score': 0.57, 'ocr_score': 0.49, 'bounding_box': [0.4, 0.3, 0.99, 0.32]}
+[2023-05-09T04:57:43.374+0000] {ml_response_dag.py:36} INFO - 15
+[2023-05-09T04:57:43.375+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.375+0000] {ml_response_dag.py:35} INFO - {'value': '745', 'score': 0.84, 'ocr_score': 0.82, 'bounding_box': [0.84, 0.57, 0.94, 0.44]}
+[2023-05-09T04:57:43.376+0000] {ml_response_dag.py:36} INFO - 16
+[2023-05-09T04:57:43.377+0000] {ml_response_dag.py:37} INFO - Inserted to db
+[2023-05-09T04:57:43.379+0000] {python.py:183} INFO - Done. Returned value was: None
+[2023-05-09T04:57:43.434+0000] {taskinstance.py:1373} INFO - Marking task as SUCCESS. dag_id=veryfi_extract_total, task_id=extract_and_load, execution_date=20230508T131000, start_date=20230509T045742, end_date=20230509T045743
+[2023-05-09T04:57:43.506+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-05-09T04:57:43.600+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

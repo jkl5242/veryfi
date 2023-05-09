@@ -2883,3 +2883,10 @@ ModuleNotFoundError: No module named 'pypika'
 [2023-05-09T07:16:47.580+0000] {logging_mixin.py:149} INFO - [2023-05-09T07:16:47.580+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-05-09T07:16:47.602+0000] {logging_mixin.py:149} INFO - [2023-05-09T07:16:47.602+0000] {dag.py:3490} INFO - Setting next_dagrun for veryfi_extract_total to 2023-05-09T07:12:52+00:00, run_after=2023-05-09T07:22:52+00:00
 [2023-05-09T07:16:47.628+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/ml_response_dag.py took 0.102 seconds
+[2023-05-09T07:17:17.884+0000] {processor.py:156} INFO - Started process (PID=104) to work on /opt/airflow/dags/ml_response_dag.py
+[2023-05-09T07:17:17.885+0000] {processor.py:799} INFO - Processing file /opt/airflow/dags/ml_response_dag.py for tasks to queue
+[2023-05-09T07:17:17.886+0000] {logging_mixin.py:149} INFO - [2023-05-09T07:17:17.886+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/ml_response_dag.py
+[2023-05-09T07:17:17.899+0000] {processor.py:809} INFO - DAG(s) dict_keys(['veryfi_extract_total']) retrieved from /opt/airflow/dags/ml_response_dag.py
+[2023-05-09T07:17:17.943+0000] {logging_mixin.py:149} INFO - [2023-05-09T07:17:17.942+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-09T07:17:17.966+0000] {logging_mixin.py:149} INFO - [2023-05-09T07:17:17.966+0000] {dag.py:3490} INFO - Setting next_dagrun for veryfi_extract_total to 2023-05-09T07:12:52+00:00, run_after=2023-05-09T07:22:52+00:00
+[2023-05-09T07:17:17.979+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/ml_response_dag.py took 0.098 seconds

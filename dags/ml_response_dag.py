@@ -16,7 +16,7 @@ def extract_total():
     conn = psycopg2.connect(
         host="postgres",
         port="5432",
-        database="postgres",
+        database="airflow",
         user="airflow",
         password="airflow"
     )
@@ -51,7 +51,7 @@ def extract_total():
 
 with DAG('veryfi_extract_total', 
          default_args=default_args,
-         schedule_interval=timedelta(seconds=600)) as dag:
+         schedule_interval=timedelta(seconds=5)) as dag:
 
     extract_and_load = PythonOperator(
         task_id='extract_and_load',

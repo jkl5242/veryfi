@@ -6547,3 +6547,421 @@ File Path                               PID  Runtime      # DAGs    # Errors  La
 /opt/airflow/dags/ml_response_dag.py    104  0.01s             1           0  0.13s           2023-05-09T07:16:47
 ================================================================================
 [2023-05-09T07:17:29.212+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-05-09T07:41:56.293+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-05-09T07:41:56.294+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-05-09T07:41:56.295+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-05-09T07:41:56.296+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-05-09T07:41:56.308+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-05-09T07:41:56.716+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ml_response_dag.py     31  0.31s             0           0
+================================================================================
+[2023-05-09T07:42:27.038+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py                           1           0  0.67s           2023-05-09T07:41:57
+================================================================================
+[2023-05-09T07:42:57.734+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     48  0.03s             1           0  0.22s           2023-05-09T07:42:27
+================================================================================
+[2023-05-09T07:43:28.162+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     56  0.01s             1           0  0.19s           2023-05-09T07:42:57
+================================================================================
+[2023-05-09T07:43:58.551+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     64  0.01s             1           0  0.13s           2023-05-09T07:43:28
+================================================================================
+[2023-05-09T07:44:28.923+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     72  0.02s             1           0  0.13s           2023-05-09T07:43:58
+================================================================================
+[2023-05-09T07:44:59.282+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     80  0.01s             1           0  0.15s           2023-05-09T07:44:29
+================================================================================
+[2023-05-09T07:45:19.336+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-05-09T07:46:00.874+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-05-09T07:46:00.875+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-05-09T07:46:00.876+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-05-09T07:46:00.877+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-05-09T07:46:00.890+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-05-09T07:46:01.187+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ml_response_dag.py     32  0.22s             0           0
+================================================================================
+[2023-05-09T07:46:15.263+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-05-09T07:47:54.294+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-05-09T07:47:54.296+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-05-09T07:47:54.297+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-05-09T07:47:54.298+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-05-09T07:47:54.308+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-05-09T07:47:54.643+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ml_response_dag.py     32  0.26s             0           0
+================================================================================
+[2023-05-09T07:48:05.965+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-05-09T07:53:49.568+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-05-09T07:53:49.569+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-05-09T07:53:49.570+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-05-09T07:53:49.571+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-05-09T07:53:49.588+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-05-09T07:53:49.910+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ml_response_dag.py     32  0.24s             0           0
+================================================================================
+[2023-05-09T07:54:20.416+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     40  0.02s             1           0  0.55s           2023-05-09T07:53:50
+================================================================================
+[2023-05-09T07:54:50.849+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     48  0.02s             1           0  0.16s           2023-05-09T07:54:20
+================================================================================
+[2023-05-09T07:54:59.836+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-05-09T07:56:13.473+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-05-09T07:56:13.474+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-05-09T07:56:13.475+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-05-09T07:56:13.475+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-05-09T07:56:13.483+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-05-09T07:56:13.781+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ml_response_dag.py     32  0.23s             0           0
+================================================================================
+[2023-05-09T07:56:44.157+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     40  0.04s             1           0  0.50s           2023-05-09T07:56:14
+================================================================================
+[2023-05-09T07:57:14.652+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     48  0.02s             1           0  0.21s           2023-05-09T07:56:44
+================================================================================
+[2023-05-09T07:57:45.026+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     56  0.01s             1           0  0.16s           2023-05-09T07:57:14
+================================================================================
+[2023-05-09T07:58:15.441+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     63  0.02s             1           0  0.14s           2023-05-09T07:57:45
+================================================================================
+[2023-05-09T07:58:18.736+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-05-09T07:58:58.390+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-05-09T07:58:58.391+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-05-09T07:58:58.392+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-05-09T07:58:58.393+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-05-09T07:58:58.401+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-05-09T07:58:58.831+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ml_response_dag.py     32  0.38s             0           0
+================================================================================
+[2023-05-09T07:59:29.175+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     40  0.01s             1           0  0.55s           2023-05-09T07:58:59
+================================================================================
+[2023-05-09T07:59:59.653+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     48  0.01s             1           0  0.14s           2023-05-09T07:59:29
+================================================================================
+[2023-05-09T08:00:20.722+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-05-09T08:02:50.774+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-05-09T08:02:50.776+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-05-09T08:02:50.777+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-05-09T08:02:50.778+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-05-09T08:02:50.791+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-05-09T08:02:51.093+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ml_response_dag.py     32  0.23s             0           0
+================================================================================
+[2023-05-09T08:03:21.457+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     40  0.01s             1           0  0.50s           2023-05-09T08:02:51
+================================================================================
+[2023-05-09T08:03:28.133+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-05-09T08:04:05.547+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-05-09T08:04:05.548+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-05-09T08:04:05.548+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-05-09T08:04:05.549+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-05-09T08:04:05.559+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-05-09T08:04:05.776+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ml_response_dag.py     32  0.16s             0           0
+================================================================================
+[2023-05-09T08:04:36.026+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     40  0.00s             1           0  0.34s           2023-05-09T08:04:05
+================================================================================
+[2023-05-09T08:04:51.360+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-05-09T08:07:29.587+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-05-09T08:07:29.588+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-05-09T08:07:29.589+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-05-09T08:07:29.590+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-05-09T08:07:29.597+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-05-09T08:07:29.908+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ml_response_dag.py     32  0.24s             0           0
+================================================================================
+[2023-05-09T08:08:00.209+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py                           1           0  0.60s           2023-05-09T08:07:30
+================================================================================
+[2023-05-09T08:08:31.090+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     49  0.02s             1           0  0.20s           2023-05-09T08:08:00
+================================================================================
+[2023-05-09T08:09:01.691+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py                           1           0  0.18s           2023-05-09T08:08:57
+================================================================================
+[2023-05-09T08:09:32.047+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py                           1           0  0.19s           2023-05-09T08:09:28
+================================================================================
+[2023-05-09T08:10:02.462+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py                           1           0  0.12s           2023-05-09T08:09:58
+================================================================================
+[2023-05-09T08:10:32.763+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py                           1           0  0.26s           2023-05-09T08:10:28
+================================================================================
+[2023-05-09T08:11:03.117+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py                           1           0  0.14s           2023-05-09T08:10:59
+================================================================================
+[2023-05-09T08:11:33.502+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py                           1           0  0.12s           2023-05-09T08:11:29
+================================================================================
+[2023-05-09T08:11:57.120+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-05-09T08:13:24.621+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-05-09T08:13:24.623+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-05-09T08:13:24.624+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-05-09T08:13:24.626+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-05-09T08:13:24.658+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-05-09T08:13:24.949+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ml_response_dag.py     32  0.21s             0           0
+================================================================================
+[2023-05-09T08:13:55.478+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     40  0.01s             1           0  0.40s           2023-05-09T08:13:25
+================================================================================
+[2023-05-09T08:14:25.780+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     48  0.02s             1           0  0.21s           2023-05-09T08:13:55
+================================================================================
+[2023-05-09T08:14:56.096+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     56  0.02s             1           0  0.13s           2023-05-09T08:14:25
+================================================================================
+[2023-05-09T08:15:26.395+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     64  0.01s             1           0  0.13s           2023-05-09T08:14:56
+================================================================================
+[2023-05-09T08:15:56.674+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     71  0.01s             1           0  0.13s           2023-05-09T08:15:26
+================================================================================
+[2023-05-09T08:16:26.986+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     79  0.00s             1           0  0.12s           2023-05-09T08:15:56
+================================================================================
+[2023-05-09T08:16:57.305+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     87  0.01s             1           0  0.13s           2023-05-09T08:16:27
+================================================================================
+[2023-05-09T08:17:27.616+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     95  0.01s             1           0  0.14s           2023-05-09T08:16:57
+================================================================================
+[2023-05-09T08:17:30.874+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-05-09T08:18:21.985+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-05-09T08:18:21.987+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-05-09T08:18:21.988+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-05-09T08:18:21.989+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-05-09T08:18:21.997+0000] {manager.py:761} INFO - There are 1 files in /opt/airflow/dags
+[2023-05-09T08:18:22.413+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/ml_response_dag.py     31  0.22s             0           0
+================================================================================
+[2023-05-09T08:18:52.852+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ml_response_dag.py     39  0.01s             1           0  0.43s           2023-05-09T08:18:22
+================================================================================
+[2023-05-09T08:19:09.416+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15

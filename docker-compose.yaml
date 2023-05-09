@@ -93,6 +93,7 @@ services:
       POSTGRES_DB: airflow
     volumes:
       - ./data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     healthcheck:
       test: ["CMD", "pg_isready", "-U", "airflow"]
       interval: 10s
@@ -122,10 +123,24 @@ services:
     ports:
       - "5001:5001"
     environment:
-      - DB_NAME=postgres
+      - DB_NAME=airflow
       - DB_USER=airflow
       - DB_PASSWORD=airflow
       - DB_HOST=postgres
+    restart: on-failure
+
+  generate-data:
+    build:
+      context: .
+      dockerfile: Dockerfile.generate-data
+    depends_on:
+      - postgres
+    environment:
+      - DB_NAME=airflow
+      - DB_USER=airflow
+      - DB_PASSWORD=airflow
+      - DB_HOST=postgres
+    restart: on-failure
 
   redis:
     image: redis:latest

@@ -2,7 +2,7 @@ from flask import Flask, jsonify
 from flask_sqlalchemy import SQLAlchemy
 import logging
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://airflow:airflow@postgres:5432/postgres'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://airflow:airflow@postgres:5432/airflow'
 db = SQLAlchemy(app)
 
 class ParsedTotal(db.Model):
@@ -31,7 +31,6 @@ def get_business_total(business_id):
 
 @app.route('/api/score/<float:score>', methods=['GET'])
 def get_score_total(score):
-    logging.info("Entered")
     # Query the parsed_total table for the given score
     query_result = ParsedTotal.query.filter(ParsedTotal.score == score, ParsedTotal.value.isnot(None)).all()
 

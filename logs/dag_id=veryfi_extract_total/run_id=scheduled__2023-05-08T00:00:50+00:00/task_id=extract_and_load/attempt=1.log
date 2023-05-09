@@ -1,0 +1,28 @@
+[2023-05-09T08:08:15.251+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: veryfi_extract_total.extract_and_load scheduled__2023-05-08T00:00:50+00:00 [queued]>
+[2023-05-09T08:08:15.311+0000] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: veryfi_extract_total.extract_and_load scheduled__2023-05-08T00:00:50+00:00 [queued]>
+[2023-05-09T08:08:15.313+0000] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-09T08:08:15.421+0000] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): extract_and_load> on 2023-05-08 00:00:50+00:00
+[2023-05-09T08:08:15.483+0000] {standard_task_runner.py:57} INFO - Started process 83 to run task
+[2023-05-09T08:08:15.529+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'veryfi_extract_total', 'extract_and_load', 'scheduled__2023-05-08T00:00:50+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/ml_response_dag.py', '--cfg-path', '/tmp/tmp7towv735']
+[2023-05-09T08:08:15.551+0000] {standard_task_runner.py:85} INFO - Job 10: Subtask extract_and_load
+[2023-05-09T08:08:16.220+0000] {task_command.py:410} INFO - Running <TaskInstance: veryfi_extract_total.extract_and_load scheduled__2023-05-08T00:00:50+00:00 [running]> on host eee4d3871c86
+[2023-05-09T08:08:16.956+0000] {taskinstance.py:1570} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='veryfi_extract_total' AIRFLOW_CTX_TASK_ID='extract_and_load' AIRFLOW_CTX_EXECUTION_DATE='2023-05-08T00:00:50+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-08T00:00:50+00:00'
+[2023-05-09T08:08:17.006+0000] {taskinstance.py:1847} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/ml_response_dag.py", line 30, in extract_total
+    """)
+psycopg2.errors.UndefinedTable: relation "documents" does not exist
+LINE 3:     FROM documents
+                 ^
+
+[2023-05-09T08:08:17.056+0000] {taskinstance.py:1373} INFO - Marking task as UP_FOR_RETRY. dag_id=veryfi_extract_total, task_id=extract_and_load, execution_date=20230508T000050, start_date=20230509T080815, end_date=20230509T080817
+[2023-05-09T08:08:17.102+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 10 for task extract_and_load (relation "documents" does not exist
+LINE 3:     FROM documents
+                 ^
+; 83)
+[2023-05-09T08:08:17.242+0000] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-09T08:08:17.453+0000] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

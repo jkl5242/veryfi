@@ -5,9 +5,9 @@ import random
 
 # Connect to the PostgreSQL database
 conn = psycopg2.connect(
-    host="localhost",
+    host="postgres",
     port="5432",
-    database="postgres",
+    database="airflow",
     user="airflow",
     password="airflow"
 )
@@ -44,4 +44,4 @@ while True:
     cur.close()
 
     print(f"Added new row with payload: {payload}")
-    time.sleep(5)
+    time.sleep(1)
